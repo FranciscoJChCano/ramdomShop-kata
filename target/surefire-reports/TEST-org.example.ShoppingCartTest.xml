@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ShoppingCartTest" time="0.25" tests="18" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ShoppingCartTest" time="0.398" tests="21" errors="4" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Neo\AppData\Local\Temp\surefire12499783117789157464\surefirebooter-20240620120235913_3.jar C:\Users\Neo\AppData\Local\Temp\surefire12499783117789157464 2024-06-20T12-02-35_390-jvmRun1 surefire-20240620120235913_1tmp surefire_0-20240620120235913_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Neo\AppData\Local\Temp\surefire17306927899431811514\surefirebooter-20240620124314409_3.jar C:\Users\Neo\AppData\Local\Temp\surefire17306927899431811514 2024-06-20T12-43-13_500-jvmRun1 surefire-20240620124314409_1tmp surefire_0-20240620124314409_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="org.example.ShoppingCartTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Neo\Desktop\Projectos\ramdomShop-kata\target\test-classes;C:\Users\Neo\Desktop\Projectos\ramdomShop-kata\target\classes;C:\Users\Neo\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0-M2\junit-jupiter-5.11.0-M2.jar;C:\Users\Neo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0-M2\junit-jupiter-api-5.11.0-M2.jar;C:\Users\Neo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Neo\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0-M2\junit-platform-commons-1.11.0-M2.jar;C:\Users\Neo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Neo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0-M2\junit-jupiter-params-5.11.0-M2.jar;C:\Users\Neo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.0-M2\junit-jupiter-engine-5.11.0-M2.jar;C:\Users\Neo\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0-M2\junit-platform-engine-1.11.0-M2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Neo\AppData\Local\Temp\surefire12499783117789157464\surefirebooter-20240620120235913_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Neo\AppData\Local\Temp\surefire17306927899431811514\surefirebooter-20240620124314409_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -58,15 +58,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="calculatePriceForSpider_red_sticky" classname="org.example.ShoppingCartTest" time="0.078"/>
-  <testcase name="calculatePriceForSpider_gold" classname="org.example.ShoppingCartTest" time="0.004"/>
-  <testcase name="calculatePriceForMagicCards_black_lotus" classname="org.example.ShoppingCartTest" time="0.002"/>
-  <testcase name="calculatePriceForFish_blue" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForFish_gold" classname="org.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="calculatePriceForSpider_red_sticky" classname="org.example.ShoppingCartTest" time="0.116"/>
+  <testcase name="calculatePriceForSpider_gold" classname="org.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="calculatePriceForMagicCards_black_lotus" classname="org.example.ShoppingCartTest" time="0.004"/>
+  <testcase name="calculatePriceForCat" classname="org.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="calculatePriceForDog" classname="org.example.ShoppingCartTest" time="0.006"/>
+  <testcase name="calculatePriceForFish_blue" classname="org.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="calculatePriceForFish_gold" classname="org.example.ShoppingCartTest" time="0.004"/>
   <testcase name="calculatePriceForSpider_gold_sticky" classname="org.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="calculatePriceForCanary" classname="org.example.ShoppingCartTest" time="0.002"/>
   <testcase name="calculatePriceForCheese" classname="org.example.ShoppingCartTest" time="0.002"/>
-  <testcase name="calculatePriceForSpider_red" classname="org.example.ShoppingCartTest" time="0.002"/>
-  <testcase name="calculatePriceForMagicCards_black" classname="org.example.ShoppingCartTest" time="0.009">
+  <testcase name="calculatePriceForSpider_red" classname="org.example.ShoppingCartTest" time="0.004"/>
+  <testcase name="calculatePriceForMagicCards_black" classname="org.example.ShoppingCartTest" time="0.015">
     <error message="Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.example.Product.getAge()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:49)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -83,7 +86,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></error>
   </testcase>
-  <testcase name="calculatePriceForMagicCards_green" classname="org.example.ShoppingCartTest" time="0.006">
+  <testcase name="calculatePriceForMagicCards_green" classname="org.example.ShoppingCartTest" time="0.005">
     <error message="Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.example.Product.getAge()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:48)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -100,9 +103,9 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></error>
   </testcase>
-  <testcase name="calculatePriceForMagicOldCards_red" classname="org.example.ShoppingCartTest" time="0.003"/>
-  <testcase name="calculatePriceForSpider_stinky" classname="org.example.ShoppingCartTest" time="0.005"/>
-  <testcase name="calculatePriceForMagicCards_blue" classname="org.example.ShoppingCartTest" time="0.004">
+  <testcase name="calculatePriceForMagicOldCards_red" classname="org.example.ShoppingCartTest" time="0.002"/>
+  <testcase name="calculatePriceForSpider_stinky" classname="org.example.ShoppingCartTest" time="0.007"/>
+  <testcase name="calculatePriceForMagicCards_blue" classname="org.example.ShoppingCartTest" time="0.009">
     <error message="Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.example.Product.getAge()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:46)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -119,8 +122,8 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></error>
   </testcase>
-  <testcase name="calculatePriceForWine" classname="org.example.ShoppingCartTest" time="0.003"/>
-  <testcase name="calculatePriceForMagicCards_red" classname="org.example.ShoppingCartTest" time="0.003">
+  <testcase name="calculatePriceForWine" classname="org.example.ShoppingCartTest" time="0.012"/>
+  <testcase name="calculatePriceForMagicCards_red" classname="org.example.ShoppingCartTest" time="0.004">
     <error message="Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.example.Product.getAge()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:47)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -137,7 +140,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></error>
   </testcase>
-  <testcase name="calculatePriceForMagicOldCards_blue" classname="org.example.ShoppingCartTest" time="0.001"/>
-  <testcase name="calculatePriceForMagicOldCards_black" classname="org.example.ShoppingCartTest" time="0.002"/>
-  <testcase name="calculatePriceForMagicOldCards_green" classname="org.example.ShoppingCartTest" time="0.005"/>
+  <testcase name="calculatePriceForMagicOldCards_blue" classname="org.example.ShoppingCartTest" time="0.004"/>
+  <testcase name="calculatePriceForMagicOldCards_black" classname="org.example.ShoppingCartTest" time="0.003"/>
+  <testcase name="calculatePriceForMagicOldCards_green" classname="org.example.ShoppingCartTest" time="0.014"/>
 </testsuite>
