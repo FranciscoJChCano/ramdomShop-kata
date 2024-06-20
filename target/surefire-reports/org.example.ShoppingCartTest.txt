@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.example.ShoppingCartTest
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.398 s <<< FAILURE! -- in org.example.ShoppingCartTest
-org.example.ShoppingCartTest.calculatePriceForMagicCards_black -- Time elapsed: 0.015 s <<< ERROR!
+Tests run: 22, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.327 s <<< FAILURE! -- in org.example.ShoppingCartTest
+org.example.ShoppingCartTest.calculatePriceForMagicCards_black -- Time elapsed: 0.021 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:49)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -34,7 +34,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-org.example.ShoppingCartTest.calculatePriceForMagicCards_blue -- Time elapsed: 0.009 s <<< ERROR!
+org.example.ShoppingCartTest.calculatePriceForMagicCards_blue -- Time elapsed: 0.011 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:46)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -50,7 +50,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-org.example.ShoppingCartTest.calculatePriceForMagicCards_red -- Time elapsed: 0.004 s <<< ERROR!
+org.example.ShoppingCartTest.calculatePriceForMagicCards_red -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.example.Product.getAge()" is null
 	at org.example.ShoppingCart.calculatePrice(ShoppingCart.java:47)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)

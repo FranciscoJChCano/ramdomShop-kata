@@ -201,6 +201,17 @@ class ShoppingCartTest {
 
         assertEquals(shoppingCart.getTotalPrice(), 4.8);
     }
+
+    @Test
+    void calculatePriceForSpider() {
+        ShoppingCart shoppingCart = new ShoppingCart();
+
+        Product product = new Product(8, null, false, "orange", null, "Sofia", null);
+
+        shoppingCart.addProduct(product);
+
+        assertEquals(shoppingCart.getTotalPrice(), 9.6);
+    }
     
     @Test
     void calculatePriceForFish_blue() {
